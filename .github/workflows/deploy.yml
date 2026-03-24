@@ -23,6 +23,7 @@ jobs:
         with:
           repository: marsman-io/levi
           ref: main
+          token: ${{ secrets.LEVI_REPO_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
